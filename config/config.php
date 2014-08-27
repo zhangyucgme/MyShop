@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * 网店配置模板
  *
@@ -9,8 +9,8 @@
 
 // ** 数据库配置 ** //
 define('DB_USER', 'root');  # 数据库用户名
-define('DB_PASSWORD', 'root'); # 数据库密码
-define('DB_NAME', 'test');    # 数据库名
+define('DB_PASSWORD', ''); # 数据库密码
+define('DB_NAME', 'shopex');    # 数据库名
 
 # 数据库服务器 -- 99% 的情况下您不需要修改此参数
 define('DB_HOST', 'localhost');
