@@ -1,0 +1,3 @@
+<div id="successSplash" class='success splash clearfix textcenter'> <h4><?php echo $this->_vars['msg']; ?></h4> <?php $this->_vars["id"]=time(); ?> <p> <?php if( $this->_vars['allreoad'] ){ ?> <a id="splash-<?php echo $this->_vars['id']; ?>" onclick="location.reload()" ><?php }else{ ?> <a id="splash-<?php echo $this->_vars['id']; ?>" href="<?php echo $this->_vars['jumpto']; ?>" target="{method:'post',data:'a=b'}"> <?php }  if( $this->_vars['wait']>1 ){  echo $this->_vars['wait']; ?>秒后系统会自动跳转，也可点击本处<?php }else{ ?>正在跳转...<?php } ?> </a> </p> </div> <script>
+top.Splash.go("<?php echo $this->_vars['jumpto']; ?>",<?php echo $this->_vars['wait']; ?>*1000,{method:'post',data:'a=b'});
+</script>

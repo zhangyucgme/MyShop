@@ -1,0 +1,1 @@
+<a href="../?article-<?php echo $this->_vars['item']['article_id']; ?>.html" target="_blank"><img src="images/transparent.gif" border="0" title="预览" class="imgbundle" style="width:18px;height:19px;background-position:0 -2535px;" /></a>

@@ -1,0 +1,1 @@
+<?php if(!function_exists('tpl_modifier_storager')){ require(CORE_DIR.'/include_v5/smartyplugins/modifier.storager.php'); } ?><a href="./"><img src="<?php echo tpl_modifier_storager($this->system->getConf('site.logo')); ?>" border="0"/></a>

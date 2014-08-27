@@ -1,0 +1,1 @@
+<div class="border4 <?php echo $this->_vars['widgets_classname']; ?>" id="<?php echo $this->_vars['widgets_id']; ?>"> <div class="border-top"><h3><?php echo $this->_vars['title']; ?></h3></div> <div class="border-body"><?php echo $this->_vars['body']; ?></div> </div>

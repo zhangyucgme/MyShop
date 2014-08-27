@@ -1,0 +1,1 @@
+<div class="siderMainBorder red <?php echo $this->_vars['widgets_classname']; ?>" id="<?php echo $this->_vars['widgets_id']; ?>"> <div class="top"> <h3><?php echo $this->_vars['title']; ?></h3> </div> <div class="body clearfix"> <?php echo $this->_vars['body']; ?> </div> <div class="bottom"> </div> </div> 
